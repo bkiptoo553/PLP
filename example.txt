@@ -1,0 +1,5 @@
+While reading Kotlin documentation is easy and pleasant, learning everything by example is a different kind of fun.
+This is an official set of small and simple annotated examples designed for those new to Kotlin.
+No prior knowledge of any programming language is required.
+
+You can run each snippet of code, check the result, and then run it again. Learn and play!
