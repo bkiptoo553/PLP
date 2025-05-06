@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML5 Example Page</title>
+</head>
+<body>
+
+  <section>
+    <h2>Ordered List (Roman Numerals)</h2>
+    <ol type="I">
+      <li>First Item</li>
+      <li>Second Item</li>
+      <li>Third Item</li>
+      <li>Fourth Item</li>
+      <li>Fifth Item</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" 
+         alt="Pexels image" 
+         width="600">
+  </section>
+
+  <section>
+    <h2>Contact Table</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Brian Kiptoo</td>
+          <td>220</td>
+          <td>3700</td>
+          <td>kiptoo@gmail.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Registration Form</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your full name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Create a password" required minlength="6"><br><br>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required><br><br>
+
+      <label for="country">Country:</label>
+      <select id="country" name="country" required>
+        <option value="">*Select Country*</option>
+        <option value="Kenya">Kenya</option>
+        <option value="USA">Uganda</option>
+        <option value="UK">Tanzania</option>
+      </select><br><br>
+
+      <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="Male" required>
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="Female">
+      <label for="female">Female</label><br><br>
+
+      <label>Interests:</label>
+      <input type="checkbox" id="sports" name="interests" value="Sports">
+      <label for="sports">Sports</label>
+      <input type="checkbox" id="music" name="interests" value="Music">
+      <label for="music">Music</label>
+      <input type="checkbox" id="travel" name="interests" value="Travel">
+      <label for="travel">Travel</label><br><br>
+
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Audio Player</h2>
+    <audio controls>
+      <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+    </audio>
+  </section>
+
+  <section>
+    <h2>Video Player</h2>
+    <video width="600" controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    </video>
+  </section>
+
+</body>
+</html>
